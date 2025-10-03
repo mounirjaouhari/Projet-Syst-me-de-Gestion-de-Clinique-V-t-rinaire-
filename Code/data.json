@@ -1,0 +1,312 @@
+{
+    "proprietaires": {
+        "1": {
+            "id_proprietaire": 1,
+            "nom": "Youssef",
+            "adresse": "youssef@gmail.com",
+            "animaux": [
+                1,
+                2,
+                12
+            ]
+        },
+        "2": {
+            "id_proprietaire": 2,
+            "nom": "Khadija",
+            "adresse": "khadija@gmail.com",
+            "animaux": [
+                3,
+                4
+            ]
+        },
+        "3": {
+            "id_proprietaire": 3,
+            "nom": "Omar",
+            "adresse": "omar@yahoo.com",
+            "animaux": [
+                5,
+                6
+            ]
+        },
+        "4": {
+            "id_proprietaire": 4,
+            "nom": "Amina",
+            "adresse": "amina@hotmail.com",
+            "animaux": [
+                7
+            ]
+        },
+        "5": {
+            "id_proprietaire": 5,
+            "nom": "Rachid",
+            "adresse": "rachid@gmail.com",
+            "animaux": [
+                8,
+                9,
+                10
+            ]
+        },
+        "6": {
+            "id_proprietaire": 6,
+            "nom": "Amine",
+            "adresse": "amine@gmail.com",
+            "animaux": []
+        },
+        "7": {
+            "id_proprietaire": 7,
+            "nom": "Mohamed",
+            "adresse": "mohamed@gmail.com",
+            "animaux": [
+                11
+            ]
+        },
+        "8": {
+            "id_proprietaire": 8,
+            "nom": "asgfs",
+            "adresse": "sasd@asfd",
+            "animaux": []
+        },
+        "9": {
+            "id_proprietaire": 9,
+            "nom": "edafas",
+            "adresse": "sadf@fsfd",
+            "animaux": []
+        },
+        "10": {
+            "id_proprietaire": 10,
+            "nom": "asdf",
+            "adresse": "adf@asdf",
+            "animaux": []
+        },
+        "11": {
+            "id_proprietaire": 11,
+            "nom": "adsf",
+            "adresse": "@",
+            "animaux": []
+        },
+        "12": {
+            "id_proprietaire": 12,
+            "nom": "amine",
+            "adresse": "amine@gmail.com",
+            "animaux": [
+                13
+            ]
+        }
+    },
+    "animaux": {
+        "1": {
+            "id_animal": 1,
+            "nom": "Rex",
+            "age": 3,
+            "poids": 22.5,
+            "espece": "Chien",
+            "race": "Berger Allemand"
+        },
+        "2": {
+            "id_animal": 2,
+            "nom": "Bella",
+            "age": 3,
+            "poids": 8.0,
+            "espece": "Chien",
+            "race": "Caniche"
+        },
+        "3": {
+            "id_animal": 3,
+            "nom": "Mounia",
+            "age": 2,
+            "poids": 5.0,
+            "espece": "Chat",
+            "couleur_pelage": "Noir"
+        },
+        "4": {
+            "id_animal": 4,
+            "nom": "Zaki",
+            "age": 2,
+            "poids": 6.5,
+            "espece": "Chat",
+            "couleur_pelage": "Blanc"
+        },
+        "5": {
+            "id_animal": 5,
+            "nom": "Atlas",
+            "age": 5,
+            "poids": 30.0,
+            "espece": "Chien",
+            "race": "Husky"
+        },
+        "6": {
+            "id_animal": 6,
+            "nom": "Laila",
+            "age": 4,
+            "poids": 4.5,
+            "espece": "Chat",
+            "couleur_pelage": "Gris"
+        },
+        "7": {
+            "id_animal": 7,
+            "nom": "Rif",
+            "age": 3,
+            "poids": 18.0,
+            "espece": "Chien",
+            "race": "Pitbull"
+        },
+        "8": {
+            "id_animal": 8,
+            "nom": "Sahara",
+            "age": 6,
+            "poids": 7.0,
+            "espece": "Chat",
+            "couleur_pelage": "Tigre"
+        },
+        "9": {
+            "id_animal": 9,
+            "nom": "Noura",
+            "age": 4,
+            "poids": 5.5,
+            "espece": "Chat",
+            "couleur_pelage": "Blanc"
+        },
+        "10": {
+            "id_animal": 10,
+            "nom": "Samir",
+            "age": 2,
+            "poids": 20.0,
+            "espece": "Chien",
+            "race": "Labrador"
+        },
+        "11": {
+            "id_animal": 11,
+            "nom": "mimi",
+            "age": 1,
+            "poids": 5.0,
+            "espece": "Chat",
+            "couleur_pelage": "noir"
+        },
+        "12": {
+            "id_animal": 12,
+            "nom": "Chien",
+            "age": 3,
+            "poids": 1.0,
+            "espece": "Chien",
+            "race": "Berger"
+        },
+        "13": {
+            "id_animal": 13,
+            "nom": "appa",
+            "age": 5,
+            "poids": 2.0,
+            "espece": "Chien",
+            "race": "Beer"
+        }
+    },
+    "dossiers_medicaux": {
+        "1": [
+            {
+                "id_consultation": 1,
+                "id_animal": 1,
+                "date": "2025-09-15 11:30",
+                "motif": "Boiterie",
+                "diagnostic": "Entorse patte avant",
+                "cout": 200.0
+            },
+            {
+                "id_consultation": 2,
+                "id_animal": 1,
+                "date": "2025-09-28 15:40",
+                "motif": "Perte dappetit",
+                "diagnostic": "Infection digestive",
+                "cout": 150.0
+            }
+        ],
+        "2": [
+            {
+                "id_consultation": 3,
+                "id_animal": 2,
+                "date": "2025-10-01 09:20",
+                "motif": "Vaccination",
+                "diagnostic": "Rappel vaccinal",
+                "cout": 80.0
+            }
+        ],
+        "3": [
+            {
+                "id_consultation": 4,
+                "id_animal": 3,
+                "date": "2025-09-10 14:00",
+                "motif": "Eternuements frequents",
+                "diagnostic": "Rhume felin",
+                "cout": 90.0
+            }
+        ],
+        "4": [
+            {
+                "id_consultation": 5,
+                "id_animal": 4,
+                "date": "2025-09-12 10:30",
+                "motif": "Perte de poils",
+                "diagnostic": "Allergie cutanee",
+                "cout": 120.0
+            }
+        ],
+        "5": [
+            {
+                "id_consultation": 6,
+                "id_animal": 5,
+                "date": "2025-09-18 11:00",
+                "motif": "Toux persistante",
+                "diagnostic": "Bronchite canine",
+                "cout": 180.0
+            }
+        ],
+        "6": [
+            {
+                "id_consultation": 7,
+                "id_animal": 6,
+                "date": "2025-09-30 09:00",
+                "motif": "Fi\u00c3\u00a8vre",
+                "diagnostic": "Infection virale",
+                "cout": 130.0
+            }
+        ],
+        "7": [
+            {
+                "id_consultation": 8,
+                "id_animal": 7,
+                "date": "2025-09-27 13:30",
+                "motif": "Blessure oreille",
+                "diagnostic": "Plaie superficielle",
+                "cout": 140.0
+            }
+        ],
+        "8": [
+            {
+                "id_consultation": 9,
+                "id_animal": 8,
+                "date": "2025-09-22 15:20",
+                "motif": "Grattage excessif",
+                "diagnostic": "Puces",
+                "cout": 100.0
+            }
+        ],
+        "9": [
+            {
+                "id_consultation": 10,
+                "id_animal": 9,
+                "date": "2025-10-02 16:50",
+                "motif": "Vomissements",
+                "diagnostic": "Indigestion",
+                "cout": 110.0
+            }
+        ],
+        "10": [
+            {
+                "id_consultation": 11,
+                "id_animal": 10,
+                "date": "2025-09-25 12:10",
+                "motif": "Boiterie",
+                "diagnostic": "Arthrose debutante",
+                "cout": 220.0
+            }
+        ]
+    }
+}
